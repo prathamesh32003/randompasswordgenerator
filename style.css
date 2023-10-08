@@ -1,0 +1,114 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #000000;
+}
+
+.title {
+    margin: 0 auto;
+    padding-top: 40px;
+    max-width: 400px;
+}
+
+.title img {
+    width: 100%;
+    overflow: auto;
+    margin-bottom: -150px;
+    margin-top: -100px;
+}
+
+.heading {
+    margin-bottom: 10px;
+    font-size: 72px;
+    text-align: center;
+    background: linear-gradient(to right, #800080 51%, yellow 49%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.desc {
+    margin-top: 10px;
+    text-align: center;
+    background: linear-gradient(to right, yellow, #800080);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.generator {
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+    padding: 0;
+}
+
+.input-field {
+    margin-bottom: 20px;
+}
+
+.input-field input {
+    width: 320px;
+    height: 30px;
+    border-radius: 6px;
+    background: transparent;
+    color: #fff;
+    border-color: #800080;
+    box-shadow: none;
+    outline: none;
+    text-align: center;
+}
+
+.input-field img {
+    position: absolute;
+    cursor: pointer;
+}
+
+input:focus {
+    border: 2px solid #ffcc00;
+}
+
+.button {
+    position: relative;
+    height: 50px;
+    width: 210px;
+    font-size: 25px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    border: 3px solid #800080;
+    background: transparent;
+    color: #ffffff;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 0.6s;
+    outline: none;
+}
+
+.button:before, button:after {
+    position: inherit;
+    height: 100%;
+    filter: blur(50%);
+    opacity: 0.4;
+    transform: 0.6s;
+}
+
+.button:hover{
+  background: #800080;
+}
+
+.check {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.check input {
+    transform: scale(1.6)
+}
+
+.check label {
+    padding-left: 10px;
+}
